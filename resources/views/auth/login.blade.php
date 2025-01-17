@@ -15,13 +15,13 @@
 
     <div class="mb-4">
       <x-input-label for="email" :value="__('E-mail')" />
-      <x-text-input type="email" id="email" name="email" required />
+      <x-text-input type="email" id="email" name="email" />
       <x-input-error :messages="$errors->get('email')" class="mt-2" />
     </div>
 
     <div class="mb-4">
       <x-input-label for="password" :value="__('Senha')" />
-      <x-text-input type="password" id="password" name="password" required />
+      <x-text-input type="password" id="password" name="password" />
       <x-input-error :messages="$errors->get('password')" class="mt-2" />
     </div>
 
